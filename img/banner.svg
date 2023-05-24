@@ -1,0 +1,227 @@
+<svg viewBox="0 0 1000 1000" preserveAspectRatio="xMinYMin slice" style="" xmlns="http://www.w3.org/2000/svg">
+    <foreignObject width="100%" height="100%">
+        <style>
+            svg {
+                width: 100%;
+                height: 100%;
+                overflow: hidden;
+            }
+
+            @media (prefers-color-scheme: light) {
+                svg {
+                    background: linear-gradient(rgb(209, 212, 250), rgb(153, 160, 255));
+                }
+            }
+
+            @media (prefers-color-scheme: dark) {
+                svg {
+                    background: linear-gradient(rgb(1 0 44), rgb(87 92 154));
+                }
+            }
+
+            circle {
+                animation: move var(--duration) ease-in-out infinite;
+            }
+
+            .banner {
+                display: flex;
+                flex-direction: column;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                backdrop-filter: blur(100px);
+                padding: 2rem;
+                border-radius: 1rem;
+                background-color: rgba(255, 255, 255, 0.2);
+                border: 0.5rem solid rgba(255, 255, 255, 0.1);
+                width: 30rem;
+                max-width: 70vw;
+            }
+
+            .banner h1 {
+                text-align: center;
+                font-size: 2rem;
+                font-weight: bold;
+                margin-bottom: 2rem;
+            }
+
+            .banner p {
+                margin-bottom: 2rem;
+                line-height: 1.3em;
+                text-align: center;
+            }
+
+            .banner button {
+                border: none;
+                box-shadow: inset 0 0 0 0.3rem rgba(255, 255, 255, 0.2);
+                font-size: 1.2rem;
+                padding: 1rem 1.5rem;
+                border-radius: 0.2rem;
+                cursor: pointer;
+                background-image: linear-gradient(-45deg, hsl(calc(var(--hue) + 50), 60%, 60%), hsl(var(--hue), 80%, 80%));
+            }
+
+            @keyframes move {
+
+                0%,
+                100% {
+                    cx: var(--from-x);
+                    cy: var(--from-y);
+                }
+
+                50% {
+                    cx: var(--to-x);
+                    cy: var(--to-y);
+                }
+            }
+
+            .container {
+                color: #FFF;
+                width: 100%;
+                height: 300px;
+
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                color: white;
+
+                font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+            }
+
+            @media (prefers-color-scheme: light) {
+                .container {
+                    color: #000;
+                }
+            }
+
+            .upper {
+                z-index: 999
+            }
+
+            .blurr {
+                opacity: .8;
+            }
+
+        </style>
+        <div class="upper" xmlns="http://www.w3.org/1999/xhtml">
+            <div class="container">
+                <h1>Alex Xorm</h1>
+            </div>
+        </div>
+    </foreignObject>
+    <g filter="url(#blur)" class="blurr">
+        <g filter="url(#gooey)">
+            <circle cx="755" cy="486" r="54" fill="url(#grad-277)" style="--duration: 18.95315863443933s; --from-x: 755; --from-y: 908; --to-x: 486; --to-y: 816;"></circle>
+            <linearGradient id="grad-277" x1="70%" x2="0%" y1="70%" y2="0%">
+                <stop offset="0%" stop-color="hsl(280,100%,30%)" stop-opacity="1"></stop>
+                <stop offset="100%" stop-color="hsl(260,80%,60%)" stop-opacity="1"></stop>
+            </linearGradient>
+            <circle cx="190" cy="1071" r="75" fill="url(#grad-695)" style="--duration: 59.03226989443053s; --from-x: 190; --from-y: 941; --to-x: 1071; --to-y: 1030;"></circle>
+            <linearGradient id="grad-695" x1="70%" x2="0%" y1="70%" y2="0%">
+                <stop offset="0%" stop-color="hsl(244,100%,30%)" stop-opacity="1"></stop>
+                <stop offset="100%" stop-color="hsl(224,80%,60%)" stop-opacity="1"></stop>
+            </linearGradient>
+            <circle cx="162" cy="1025" r="46" fill="url(#grad-842)" style="--duration: 57.866436251461394s; --from-x: 162; --from-y: 735; --to-x: 1025; --to-y: 828;"></circle>
+            <linearGradient id="grad-842" x1="70%" x2="0%" y1="70%" y2="0%">
+                <stop offset="0%" stop-color="hsl(243,100%,30%)" stop-opacity="1"></stop>
+                <stop offset="100%" stop-color="hsl(223,80%,60%)" stop-opacity="1"></stop>
+            </linearGradient>
+            <circle cx="572" cy="520" r="88" fill="url(#grad-292)" style="--duration: 50.25304855318619s; --from-x: 572; --from-y: 255; --to-x: 520; --to-y: 1007;"></circle>
+            <linearGradient id="grad-292" x1="70%" x2="0%" y1="70%" y2="0%">
+                <stop offset="0%" stop-color="hsl(218,100%,30%)" stop-opacity="1"></stop>
+                <stop offset="100%" stop-color="hsl(198,80%,60%)" stop-opacity="1"></stop>
+            </linearGradient>
+            <circle cx="577" cy="377" r="78" fill="url(#grad-313)" style="--duration: 34.29778094538738s; --from-x: 577; --from-y: 1052; --to-x: 377; --to-y: 578;"></circle>
+            <linearGradient id="grad-313" x1="70%" x2="0%" y1="70%" y2="0%">
+                <stop offset="0%" stop-color="hsl(256,100%,30%)" stop-opacity="1"></stop>
+                <stop offset="100%" stop-color="hsl(236,80%,60%)" stop-opacity="1"></stop>
+            </linearGradient>
+            <circle cx="912" cy="898" r="76" fill="url(#grad-72)" style="--duration: 19.55561868676678s; --from-x: 912; --from-y: 671; --to-x: 898; --to-y: 964;"></circle>
+            <linearGradient id="grad-72" x1="70%" x2="0%" y1="70%" y2="0%">
+                <stop offset="0%" stop-color="hsl(223,100%,30%)" stop-opacity="1"></stop>
+                <stop offset="100%" stop-color="hsl(203,80%,60%)" stop-opacity="1"></stop>
+            </linearGradient>
+            <circle cx="508" cy="515" r="58" fill="url(#grad-123)" style="--duration: 64.93501024528722s; --from-x: 508; --from-y: 70; --to-x: 515; --to-y: 1044;"></circle>
+            <linearGradient id="grad-123" x1="70%" x2="0%" y1="70%" y2="0%">
+                <stop offset="0%" stop-color="hsl(235,100%,30%)" stop-opacity="1"></stop>
+                <stop offset="100%" stop-color="hsl(215,80%,60%)" stop-opacity="1"></stop>
+            </linearGradient>
+            <circle cx="129" cy="424" r="99" fill="url(#grad-45)" style="--duration: 24.374941595371627s; --from-x: 129; --from-y: 229; --to-x: 424; --to-y: 13;"></circle>
+            <linearGradient id="grad-45" x1="70%" x2="0%" y1="70%" y2="0%">
+                <stop offset="0%" stop-color="hsl(275,100%,30%)" stop-opacity="1"></stop>
+                <stop offset="100%" stop-color="hsl(255,80%,60%)" stop-opacity="1"></stop>
+            </linearGradient>
+            <circle cx="720" cy="495" r="90" fill="url(#grad-82)" style="--duration: 26.462048295625188s; --from-x: 720; --from-y: 611; --to-x: 495; --to-y: 938;"></circle>
+            <linearGradient id="grad-82" x1="70%" x2="0%" y1="70%" y2="0%">
+                <stop offset="0%" stop-color="hsl(221,100%,30%)" stop-opacity="1"></stop>
+                <stop offset="100%" stop-color="hsl(201,80%,60%)" stop-opacity="1"></stop>
+            </linearGradient>
+            <circle cx="773" cy="648" r="60" fill="url(#grad-234)" style="--duration: 44.97871101359446s; --from-x: 773; --from-y: 175; --to-x: 648; --to-y: 838;"></circle>
+            <linearGradient id="grad-234" x1="70%" x2="0%" y1="70%" y2="0%">
+                <stop offset="0%" stop-color="hsl(260,100%,30%)" stop-opacity="1"></stop>
+                <stop offset="100%" stop-color="hsl(240,80%,60%)" stop-opacity="1"></stop>
+            </linearGradient>
+            <circle cx="107" cy="72" r="49" fill="url(#grad-799)" style="--duration: 39.26938304130133s; --from-x: 107; --from-y: 690; --to-x: 72; --to-y: 102;"></circle>
+            <linearGradient id="grad-799" x1="70%" x2="0%" y1="70%" y2="0%">
+                <stop offset="0%" stop-color="hsl(264,100%,30%)" stop-opacity="1"></stop>
+                <stop offset="100%" stop-color="hsl(244,80%,60%)" stop-opacity="1"></stop>
+            </linearGradient>
+            <circle cx="395" cy="-32" r="47" fill="url(#grad-939)" style="--duration: 58.348569438809335s; --from-x: 395; --from-y: 104; --to-x: -32; --to-y: 868;"></circle>
+            <linearGradient id="grad-939" x1="70%" x2="0%" y1="70%" y2="0%">
+                <stop offset="0%" stop-color="hsl(276,100%,30%)" stop-opacity="1"></stop>
+                <stop offset="100%" stop-color="hsl(256,80%,60%)" stop-opacity="1"></stop>
+            </linearGradient>
+            <circle cx="119" cy="841" r="91" fill="url(#grad-410)" style="--duration: 52.89507433484604s; --from-x: 119; --from-y: 830; --to-x: 841; --to-y: 501;"></circle>
+            <linearGradient id="grad-410" x1="70%" x2="0%" y1="70%" y2="0%">
+                <stop offset="0%" stop-color="hsl(269,100%,30%)" stop-opacity="1"></stop>
+                <stop offset="100%" stop-color="hsl(249,80%,60%)" stop-opacity="1"></stop>
+            </linearGradient>
+            <circle cx="738" cy="241" r="52" fill="url(#grad-72)" style="--duration: 36.37056196675792s; --from-x: 738; --from-y: 2; --to-x: 241; --to-y: 227;"></circle>
+            <linearGradient id="grad-72" x1="70%" x2="0%" y1="70%" y2="0%">
+                <stop offset="0%" stop-color="hsl(264,100%,30%)" stop-opacity="1"></stop>
+                <stop offset="100%" stop-color="hsl(244,80%,60%)" stop-opacity="1"></stop>
+            </linearGradient>
+            <circle cx="972" cy="404" r="46" fill="url(#grad-855)" style="--duration: 48.26892259921376s; --from-x: 972; --from-y: 585; --to-x: 404; --to-y: 136;"></circle>
+            <linearGradient id="grad-855" x1="70%" x2="0%" y1="70%" y2="0%">
+                <stop offset="0%" stop-color="hsl(256,100%,30%)" stop-opacity="1"></stop>
+                <stop offset="100%" stop-color="hsl(236,80%,60%)" stop-opacity="1"></stop>
+            </linearGradient>
+            <circle cx="919" cy="606" r="49" fill="url(#grad-937)" style="--duration: 20.884656781687575s; --from-x: 919; --from-y: 605; --to-x: 606; --to-y: 618;"></circle>
+            <linearGradient id="grad-937" x1="70%" x2="0%" y1="70%" y2="0%">
+                <stop offset="0%" stop-color="hsl(289,100%,30%)" stop-opacity="1"></stop>
+                <stop offset="100%" stop-color="hsl(269,80%,60%)" stop-opacity="1"></stop>
+            </linearGradient>
+            <circle cx="99" cy="479" r="37" fill="url(#grad-919)" style="--duration: 27.46156910625789s; --from-x: 99; --from-y: 146; --to-x: 479; --to-y: -13;"></circle>
+            <linearGradient id="grad-919" x1="70%" x2="0%" y1="70%" y2="0%">
+                <stop offset="0%" stop-color="hsl(227,100%,30%)" stop-opacity="1"></stop>
+                <stop offset="100%" stop-color="hsl(207,80%,60%)" stop-opacity="1"></stop>
+            </linearGradient>
+            <circle cx="300" cy="238" r="40" fill="url(#grad-737)" style="--duration: 4.682354583374101s; --from-x: 300; --from-y: 211; --to-x: 238; --to-y: 244;"></circle>
+            <linearGradient id="grad-737" x1="70%" x2="0%" y1="70%" y2="0%">
+                <stop offset="0%" stop-color="hsl(255,100%,30%)" stop-opacity="1"></stop>
+                <stop offset="100%" stop-color="hsl(235,80%,60%)" stop-opacity="1"></stop>
+            </linearGradient>
+            <circle cx="889" cy="847" r="89" fill="url(#grad-441)" style="--duration: 3.2249030993194197s; --from-x: 889; --from-y: 814; --to-x: 847; --to-y: 790;"></circle>
+            <linearGradient id="grad-441" x1="70%" x2="0%" y1="70%" y2="0%">
+                <stop offset="0%" stop-color="hsl(235,100%,30%)" stop-opacity="1"></stop>
+                <stop offset="100%" stop-color="hsl(215,80%,60%)" stop-opacity="1"></stop>
+            </linearGradient>
+            <circle cx="543" cy="283" r="75" fill="url(#grad-143)" style="--duration: 17.379553759774414s; --from-x: 543; --from-y: 289; --to-x: 283; --to-y: 270;"></circle>
+            <linearGradient id="grad-143" x1="70%" x2="0%" y1="70%" y2="0%">
+                <stop offset="0%" stop-color="hsl(265,100%,30%)" stop-opacity="1"></stop>
+                <stop offset="100%" stop-color="hsl(245,80%,60%)" stop-opacity="1"></stop>
+            </linearGradient>
+        </g>
+    </g>
+    <defs>
+        <filter id="gooey">
+            <feGaussianBlur in="SourceGraphic" stdDeviation="25" result="blur"></feGaussianBlur>
+            <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 100 -5" result="goo"></feColorMatrix>
+            <feComposite in="SourceGraphic" in2="goo" operator="atop"></feComposite>
+        </filter>
+        <filter id="blur" x="-50%" y="-50%" width="200%" height="200%">
+            <feGaussianBlur in="SourceGraphic" stdDeviation="20"></feGaussianBlur>
+        </filter>
+    </defs>
+</svg>
