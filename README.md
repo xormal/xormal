@@ -4,7 +4,6 @@
 </picture>
 </p>
 
-### Hi all 👋
 <p align="center">
 <b>I dream of making some cool repository.</b><br><br>
 But now
