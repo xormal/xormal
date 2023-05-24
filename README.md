@@ -8,7 +8,7 @@
 <p align="center">
 <b>I dream of making some cool repository.</b><br><br>
 But now
-You can check my
+You can check my<br>
 <a href="https://www.hackerrank.com/alex_xorm"><img src="img/hackerranklogo.png" alt="HackerRank"></a>
 </p>
 <!--
