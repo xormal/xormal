@@ -4,11 +4,11 @@
 </picture>
 </p>
 
-### Hi there 👋
+### Hi all 👋
 <p align="center">
 <b>I dream of making some cool repository.</b><br><br>
 But now
-You can check my HR https://www.hackerrank.com/alex_xorm
+You can check my <a href="https://www.hackerrank.com/alex_xorm"><img src="hackerranklogo.png" alt="HackerRank"></a>
 </p>
 <!--
 **xormal/xormal** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
