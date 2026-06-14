@@ -6,6 +6,7 @@
 
 <p align="center">
 <b>I dream of making some cool repository.</b><br><br>
-
+</p>
+<p align="center">
 <b><a href="https://huggingface.co/alexxorm/"><img src="img/huggingface_logo-noborder.svg" style="width:28px;height:26px" alt="My HF"><span>Hugging Face</span></a></b>
 </p>
